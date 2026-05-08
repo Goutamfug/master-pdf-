@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | PDF Master Suite Pro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { font-family: 'Inter', sans-serif; }
+        body { background: linear-gradient(135deg, #f0f4f8 0%, #e2e8f0 100%); min-height: 100vh; }
+        .feature-card { background: white; border-radius: 1.5rem; transition: all 0.3s; border: 1px solid #e2e8f0; }
+        .feature-card:hover { transform: translateY(-5px); box-shadow: 0 20px 30px -12px rgba(0,0,0,0.15); }
+        .icon-circle { width: 3.5rem; height: 3.5rem; display: flex; align-items: center; justify-content: center; border-radius: 1.2rem; background: linear-gradient(135deg, #0f2b3d, #1e4a6e); color: white; }
+        .badge { display: inline-block; padding: 4px 12px; border-radius: 30px; font-size: 0.75rem; font-weight: 600; background: #e2e8f0; color: #1e293b; }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex flex-wrap justify-between items-center">
+            <div class="flex items-center gap-3">
+                <i class="fas fa-file-pdf text-3xl text-amber-500"></i>
+                <span class="text-xl font-bold text-gray-800">PDF Master Suite <span class="text-amber-500">Pro</span></span>
+            </div>
+            <div class="flex gap-4">
+                <a href="#" onclick="window.location.href='index.html'" class="text-gray-600 hover:text-blue-600 transition font-medium"><i class="fas fa-home mr-1"></i> Home</a>
+                <a href="#" class="text-blue-600 font-semibold border-b-2 border-blue-600 pb-1"><i class="fas fa-info-circle mr-1"></i> About</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-4 py-10 max-w-6xl">
+        <!-- Hero Section -->
+        <div class="text-center mb-12">
+            <div class="inline-flex items-center gap-2 bg-amber-100 text-amber-800 px-4 py-1.5 rounded-full text-sm font-semibold mb-4">
+                <i class="fas fa-crown text-amber-600"></i> Professional PDF Workstation
+            </div>
+            <h1 class="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">About PDF Master Suite <span class="text-amber-500">Pro</span></h1>
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto">The complete, client‑side PDF toolbox with 95+ tools — secure, private, and absolutely free.</p>
+        </div>
+
+        <!-- Overview Card -->
+        <div class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-6 md:p-8 mb-10 border border-blue-100">
+            <div class="flex flex-col md:flex-row gap-6 items-center">
+                <div class="w-20 h-20 flex-shrink-0"><i class="fas fa-shield-alt text-5xl text-blue-600"></i></div>
+                <div>
+                    <h2 class="text-2xl font-bold text-gray-800 mb-2">100% Local • No Upload • Zero Privacy Risk</h2>
+                    <p class="text-gray-600 leading-relaxed">All tools run directly in your browser. Your PDFs never leave your device. No sign‑up required, no hidden limits, no watermarks — just powerful PDF processing that respects your privacy.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Features Grid -->
+        <h2 class="text-3xl font-bold text-gray-800 mb-6 flex items-center gap-2"><i class="fas fa-cogs text-amber-500"></i> What You Can Do</h2>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+            <!-- Security & Password -->
+            <div class="feature-card p-6">
+                <div class="icon-circle mb-4"><i class="fas fa-lock text-xl"></i></div>
+                <h3 class="text-xl font-bold text-gray-800 mb-2">Security & Password</h3>
+                <ul class="space-y-1 text-gray-600 text-sm">
+                    <li><i class="fas fa-check-circle text-green-500 w-4 mr-2"></i>Add / Remove PDF passwords</li>
+                    <li><i class="fas fa-check-circle text-green-500 w-4 mr-2"></i>Watermark documents</li>
+                    <li><i class="fas fa-check-circle text-green-500 w-4 mr-2"></i>PDF to ISO-standard PDF/A</li>
+                    <li><i class="fas fa-check-circle text-green-500 w-4 mr-2"></i>Repair corrupted PDFs</li>
+                </ul>
+            </div>
+            <!-- Conversion Tools -->
+            <div class="feature-card p-6">
+                <div class="icon-circle mb-4"><i class="fas fa-exchange-alt text-xl"></i></div>
+                <h3 class="text-xl font-bold text-gray-800 mb-2">Format Conversion</h3>
+                <ul class="space-y-1 text-gray-600 text-sm">
+                    <li><i class="fas fa-check-circle text-green-500 w-4 mr-2"></i>PDF → Word, Excel, PowerPoint</li>
+                    <li><i class="fas fa-check-circle text-green-500 w-4 mr-2"></i>PDF → Images (PNG, JPG, SVG)</li>
+                    <li><i class="fas fa-check-circle text-green-500 w-4 mr-2"></i>PDF → Audio (MP3 with download)</li>
+                    <li><i class="fas fa-check-circle text-green-500 w-4 mr-2"></i>PDF → JSON, CSV, HTML, Markdown</li>
+                </ul>
+            </div>
+            <!-- Archive & Compression -->
+            <div class="feature-card p-6">
+                <div class="icon-circle mb-4"><i class="fas fa-file-archive text-xl"></i></div>
+                <h3 class="text-xl font-bold text-gray-800 mb-2">Archive & Compression</h3>
+                <ul class="space-y-1 text-gray-600 text-sm">
+                    <li><i class="fas fa-check-circle text-green-500 w-4 mr-2"></i>PDF → ZIP, RAR, ARJ, CAB, TAR.GZ</li>
+                    <li><i class="fas fa-check-circle text-green-500 w-4 mr-2"></i>Compress PDF to reduce size</li>
+                </ul>
+            </div>
+            <!-- Advanced Utilities -->
+            <div class="feature-card p-6">
+                <div class="icon-circle mb-4"><i class="fas fa-microchip text-xl"></i></div>
+                <h3 class="text-xl font-bold text-gray-800 mb-2">Advanced Utilities</h3>
+                <ul class="space-y-1 text-gray-600 text-sm">
+                    <li><i class="fas fa-check-circle text-green-500 w-4 mr-2"></i>OCR – extract text from scanned PDFs</li>
+                    <li><i class="fas fa-check-circle text-green-500 w-4 mr-2"></i>Scan to PDF – capture from camera</li>
+                    <li><i class="fas fa-check-circle text-green-500 w-4 mr-2"></i>Compare PDF – side‑by‑side text diff</li>
+                    <li><i class="fas fa-check-circle text-green-500 w-4 mr-2"></i>Add page numbers, organize pages</li>
+                </ul>
+            </div>
+            <!-- Essential Operations -->
+            <div class="feature-card p-6">
+                <div class="icon-circle mb-4"><i class="fas fa-object-group text-xl"></i></div>
+                <h3 class="text-xl font-bold text-gray-800 mb-2">Essential Operations</h3>
+                <ul class="space-y-1 text-gray-600 text-sm">
+                    <li><i class="fas fa-check-circle text-green-500 w-4 mr-2"></i>Merge multiple PDFs</li>
+                    <li><i class="fas fa-check-circle text-green-500 w-4 mr-2"></i>Split PDF into single pages</li>
+                    <li><i class="fas fa-check-circle text-green-500 w-4 mr-2"></i>Rotate pages, reorder pages</li>
+                </ul>
+            </div>
+            <!-- Audio Reader -->
+            <div class="feature-card p-6">
+                <div class="icon-circle mb-4"><i class="fas fa-headphones text-xl"></i></div>
+                <h3 class="text-xl font-bold text-gray-800 mb-2">Text-to-Speech Audio</h3>
+                <ul class="space-y-1 text-gray-600 text-sm">
+                    <li><i class="fas fa-check-circle text-green-500 w-4 mr-2"></i>Read any PDF aloud</li>
+                    <li><i class="fas fa-check-circle text-green-500 w-4 mr-2"></i>Pause, resume, stop controls</li>
+                    <li><i class="fas fa-check-circle text-green-500 w-4 mr-2"></i><strong>Download as MP3</strong> – save audio</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Tech & Privacy -->
+        <div class="grid md:grid-cols-2 gap-6 mb-12">
+            <div class="bg-white rounded-2xl p-6 border border-gray-200">
+                <h3 class="text-xl font-bold text-gray-800 mb-3 flex items-center gap-2"><i class="fas fa-code text-indigo-600"></i> Technology Stack</h3>
+                <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="badge"><i class="fab fa-js"></i> PDF.js (Mozilla)</span>
+                    <span class="badge"><i class="fas fa-lock"></i> pdf-lib</span>
+                    <span class="badge"><i class="fas fa-font"></i> Tesseract.js (OCR)</span>
+                    <span class="badge"><i class="fas fa-headphones"></i> Web Speech API</span>
+                    <span class="badge"><i class="fas fa-file-excel"></i> SheetJS</span>
+                    <span class="badge"><i class="fas fa-file-word"></i> Docx</span>
+                    <span class="badge"><i class="fas fa-chart-line"></i> PptxGenJS</span>
+                    <span class="badge"><i class="fas fa-archive"></i> JSZip</span>
+                </div>
+                <p class="text-gray-600 text-sm">All libraries are open‑source and run entirely in your browser. No server‑side processing, no tracking, no analytics.</p>
+            </div>
+            <div class="bg-white rounded-2xl p-6 border border-gray-200">
+                <h3 class="text-xl font-bold text-gray-800 mb-3 flex items-center gap-2"><i class="fas fa-lock text-green-600"></i> Privacy First</h3>
+                <ul class="space-y-2 text-gray-600">
+                    <li><i class="fas fa-check-circle text-green-500 mr-2"></i> Zero file upload – everything stays local</li>
+                    <li><i class="fas fa-check-circle text-green-500 mr-2"></i> No account required for core features</li>
+                    <li><i class="fas fa-check-circle text-green-500 mr-2"></i> No watermarks, no hidden fees</li>
+                    <li><i class="fas fa-check-circle text-green-500 mr-2"></i> Works offline after first load</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- FAQ / Notes -->
+        <div class="bg-amber-50 rounded-2xl p-6 border border-amber-200 mb-10">
+            <h3 class="text-xl font-bold text-gray-800 mb-3 flex items-center gap-2"><i class="fas fa-question-circle text-amber-600"></i> Important Notes</h3>
+            <div class="grid md:grid-cols-2 gap-4 text-sm text-gray-700">
+                <div><i class="fas fa-microphone-alt text-amber-600 mr-2"></i> <strong>Audio MP3 download</strong> requires microphone permission to record system audio (your voice is never stored).</div>
+                <div><i class="fas fa-camera text-amber-600 mr-2"></i> <strong>Scan to PDF</strong> needs camera access – images are never uploaded.</div>
+                <div><i class="fas fa-robot text-amber-600 mr-2"></i> <strong>OCR</strong> uses Tesseract.js – works best with clear scanned text.</div>
+                <div><i class="fas fa-bolt text-amber-600 mr-2"></i> For large PDFs (>200 pages), processing may take a few seconds – completely normal.</div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="text-center text-gray-500 text-sm py-6 border-t mt-8">
+            <p>© 2025 PDF Master Suite Pro – Version 4.0 | Designed for professionals, built for privacy</p>
+            <p class="mt-1"><i class="fas fa-globe"></i> 100% Client‑Side | <i class="fas fa-heart text-red-400"></i> Free forever</p>
+        </footer>
+    </main>
+
+    <script>
+        // Simple redirect for home link if index.html exists, else go back
+        document.querySelectorAll('a[href="#"]').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                window.location.href = 'index.html';
+            });
+        });
+    </script>
+</body>
+  </html>
